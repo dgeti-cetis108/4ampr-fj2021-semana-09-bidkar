@@ -6,6 +6,16 @@
   <title>HTML Images Map</title>
 </head>
 <body>
-  
+  <h2>Images Map</h2>
+  <img src="images/desktop-pink-600x400.jpg" alt="escritorio" usemap="#imagemap">
+
+  <map name="imagemap">
+    <area onclick="saludar('audifonos')" alt="audifonos" title="audifonos" href="#" coords="96,290,96" shape="circle">
+    <area alt="teclado" title="teclado" href="#" coords="207,251,508,379" shape="rect">
+    <area alt="pluma" title="pluma" href="#" coords="422,90,436,231" shape="rect">
+    <area alt="libreta" title="libreta" href="#" coords="449,12,586,232" shape="rect">
+    <area alt="mouse" title="mouse" href="#" coords="525,260,586,379" shape="rect">
+  </map>
+  <script src="js/app.js"></script>
 </body>
 </html>
